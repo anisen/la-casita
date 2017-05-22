@@ -1,15 +1,18 @@
 .pasto{
 	background-color: green;
 	width: 100%;
-	height: 100px;
-	position: relative;
-	top: 500px;
+	height: 150px;
+	position: absolute;
+	top: 550px;
 }
 .sol{
 	background-color: yellow;
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
+	position: absolute;
+	left: 30px;
+	top: 30px;
 }
 .humo{
 	background-color: #545F4C;
@@ -17,10 +20,28 @@
 	height: 50px;
 	border-radius: 50%;
 }
+.humo.uno{
+ position: relative;
+ left: 40px;
+ bottom: 60px;
+}
+.humo.dos{
+	position: relative;
+ left: 100px;
+ bottom: 150px;
+}
+.humo.tres{
+	position: relative;
+ left: 150px;
+ bottom: 250px;
+}
 .chimenea{
 	background-color: #B25F7A;
 	width: 40px;
 	height: 70px;
+	position: relative;
+	left: 280px;
+	top: 40px;
 }
 .techo{
     width: 350px;
@@ -28,33 +49,33 @@
     border-right: 60px solid transparent;
     border-left: 60px solid transparent;
     border-bottom: 150px solid black;
-    position: absolute;
+    position: relative;
 	left: 500px;
-	bottom: 300px;
+	top: 200px;
 }
 .pared-frontal{
 	background-color: #604A1B;
 	width:470px;
 	height: 280px;
-	position: absolute;
+	position: relative;
 	left: 500px;
-	top: 350px;
+	top: 200px;
 }
 .puerta{
 	background-color: #44424B;
 	width:140px;
-	height: 200px;
+	height: 222px;
 	position: relative;
 	left: 50px;
 	top: 58px;
 }
 .ventana{
 	background-color: #D42E9C;
-	width: 100px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
 	position: relative;
 	left: 270px;
-	bottom: 100px;
+	bottom: 120px;
 }
 /*corazon*/
 .corazon{
@@ -89,4 +110,9 @@
 .corazon:after{
 	top: -25px;
 	right: 0px;
+}
+/*Aqui es el codigo para mover la casa*/
+.casa{
+	position: absolute;
+	left: 10px;
 }
